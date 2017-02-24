@@ -1,0 +1,41 @@
+{
+  "name": "nox-it/yii2-nox-user-agent-parser",
+  "description": "Yii2 UserAgent Parser",
+  "type": "library",
+  "keywords": [
+    "yii2",
+    "extension",
+    "migration",
+    "framework",
+    "php"
+  ],
+  "license": "BSD-3-Clause",
+  "version": "1.5.4",
+  "authors": [
+    {
+      "name": "Jonatas Sas",
+      "email": "atendimento@jsas.com.br"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "nox-it/yii2-nox": "1.*",
+    "nox-it/yii2-nox-mvc": "1.*",
+    "donatj/phpuseragentparser": "0.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "nox\\components\\http\\userAgent\\": "components/http/userAgent"
+    }
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/nox-it/yii2-nox-user-agent-parser"
+    }
+  ]
+}

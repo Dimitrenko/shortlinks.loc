@@ -1,0 +1,16 @@
+
+.status{
+    width: 250px;
+}
+.hide{
+    display: none;
+}
+.show{
+
+}
+.result{
+    font-size: 16pt;
+    color: #0d0e0e;
+    text-align: left;
+    margin-top: 50px;
+}
